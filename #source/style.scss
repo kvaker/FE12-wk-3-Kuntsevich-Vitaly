@@ -1,0 +1,39 @@
+@import "header.scss";
+@import "features.scss";
+@import "works.scss";
+@import "team.scss";
+@import "download.scss";
+@import "footer.scss";
+@import "clients.scss";
+/* $blue: #333751;
+$blue-grey: #66697e;
+$bd: 1px solid $grey; */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+a {
+    color: whitesmoke;
+    border: none;
+    padding: 4px; 
+    text-decoration: none; 
+   }
+   a:hover {
+    color: whitesmoke;
+    border-bottom: 1px solid whitesmoke;
+   }
+svg path {
+    stroke:inherit;
+    stroke-width:inherit;
+    fill:inherit;
+    }
+  html{
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+}
+h1, h2, h4{
+  font-family: 'Raleway', sans-serif;
+}

@@ -1,0 +1,95 @@
+*,*::before,*::after{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+.section-clients {
+    width: 100%;
+}
+.wrapper{
+    height: 100%;
+}
+.slider_item{
+    display: flex;
+    flex-direction: row;
+}
+.caption{
+    background-color: #53354a;
+    padding: 50px;
+}
+.clients-words{
+    font-family: "Raleway";
+    font-size: 26px;
+    font-style: oblique;
+    color: whitesmoke;
+    margin-bottom: 20px;
+}
+.name-clients{
+    font-family: "Raleway";
+    font-size: 13px;
+    color: whitesmoke;
+    text-transform: uppercase;
+}
+.slick-track{
+    display: flex;
+    align-items: flex-start;
+}
+.slick-list{
+    overflow: hidden;
+}
+.slider{
+    position: relative;
+}
+.slider .slick-arrow{
+    position: absolute;
+    top:50%;
+    z-index: 10;
+}
+.slider .slick-arrow.slick-prev{
+    left: 0;
+}
+.slider .slick-arrow.slick-next{
+    right: 0;
+}
+.slider .slick-dots{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.slider .slick-dots li{
+    list-style: none;
+    margin: 0px 10px;
+    }
+.slider .slick-dots button{
+    font-size: 0;
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+.slider .slick-dots li.slick-active button{
+background-color: transparent;
+border: 1px solid #fff;
+}
+/* .container-slider-clients{
+overflow: hidden; 
+position: relative; 
+display: block;
+}
+.slider_item{
+position: relative; 
+width: 1422px; 
+height: 290px; 
+left: -474px;
+}
+.slide{
+position: absolute; 
+top: 0px; 
+left: 474px; 
+z-index: 0; 
+display: none;
+}
+.caption{
+bottom: 0px;
+} */
