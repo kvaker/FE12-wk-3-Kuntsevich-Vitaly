@@ -455,7 +455,7 @@ p.firstpage-container-button-text {
 
 .download-container-title {
   font-family: "Raleway";
-  font-size: 22px;
+  font-size: 0, 6rem;
   font-weight: 400;
   text-align: center;
   margin-bottom: 20px;
@@ -464,7 +464,7 @@ p.firstpage-container-button-text {
 
 .download-container-title-text {
   font-family: "Raleway";
-  font-size: 13px;
+  font-size: 0, 9rem;
   font-weight: 600;
   text-transform: uppercase;
   color: #2d3033;
