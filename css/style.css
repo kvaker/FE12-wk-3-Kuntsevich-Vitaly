@@ -630,6 +630,7 @@ p.firstpage-container-button-text {
 
 .section-clients {
   width: 100%;
+  margin-bottom: 100px;
 }
 
 .wrapper {
@@ -648,7 +649,8 @@ p.firstpage-container-button-text {
 
 .caption {
   background-color: #53354a;
-  padding: 50px;
+  padding: 100px;
+  padding-right: 200px;
 }
 
 .clients-words {
@@ -679,25 +681,31 @@ p.firstpage-container-button-text {
   overflow: hidden;
 }
 
-.slider {
+.slick-slider {
   position: relative;
 }
 
-.slider .slick-arrow {
+.slick-slider .slick-arrow {
   position: absolute;
   top: 50%;
+  margin: -30px 0px 0px 0px;
   z-index: 10;
+  font-size: 0;
+  width: 30px;
+  height: 60px;
 }
 
-.slider .slick-arrow.slick-prev {
+.slick-slider .slick-arrow.slick-prev {
   left: 0;
+  background: url("../images/chevron-left-solid.svg") 0 0/100% no-repeat;
 }
 
-.slider .slick-arrow.slick-next {
+.slick-slider .slick-arrow.slick-next {
   right: 0;
+  background: url("../images/chevron-right-solid.svg") 0 0/100% no-repeat;
 }
 
-.slider .slick-dots {
+.slick-slider .slick-dots {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -707,14 +715,18 @@ p.firstpage-container-button-text {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  position: absolute;
+  top: 70%;
+  left: 1000px;
+  z-index: 10;
 }
 
-.slider .slick-dots li {
+.slick-slider .slick-dots li {
   list-style: none;
   margin: 0px 10px;
 }
 
-.slider .slick-dots button {
+.slick-slider .slick-dots button {
   font-size: 0;
   width: 10px;
   height: 10px;
@@ -722,32 +734,11 @@ p.firstpage-container-button-text {
   border-radius: 50%;
 }
 
-.slider .slick-dots li.slick-active button {
+.slick-slider .slick-dots li.slick-active button {
   background-color: transparent;
   border: 1px solid #fff;
 }
 
-/* .container-slider-clients{
-overflow: hidden; 
-position: relative; 
-display: block;
-}
-.slider_item{
-position: relative; 
-width: 1422px; 
-height: 290px; 
-left: -474px;
-}
-.slide{
-position: absolute; 
-top: 0px; 
-left: 474px; 
-z-index: 0; 
-display: none;
-}
-.caption{
-bottom: 0px;
-} */
 /* $blue: #333751;
 $blue-grey: #66697e;
 $bd: 1px solid $grey; */
